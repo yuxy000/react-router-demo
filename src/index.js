@@ -12,8 +12,11 @@ import AnimationExample from './animatedTransitions';
 import AmbiguousExample from './ambiguousMatches';
 import RouteConfigExample from './routeConfig';
 import ModalGallery from './modalGallery';
+
+import NestedExample from './nestedRouter';
+
 import StaticRouterExample from './staticRouterContext';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<StaticRouterExample/>, document.getElementById('root'));
+ReactDOM.render(<CustomLinkExample/>, document.getElementById('root'));
 registerServiceWorker();
