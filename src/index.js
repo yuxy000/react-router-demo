@@ -14,9 +14,10 @@ import RouteConfigExample from './routeConfig';
 import ModalGallery from './modalGallery';
 
 import NestedExample from './nestedRouter';
+import CodeSplittingExample from './CodeSplitting';
 
 import StaticRouterExample from './staticRouterContext';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<CustomLinkExample/>, document.getElementById('root'));
+ReactDOM.render(<CodeSplittingExample/>, document.getElementById('root'));
 registerServiceWorker();
